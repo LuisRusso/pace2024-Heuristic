@@ -57,6 +57,9 @@ make
 
 The binary receives a graph in the [input format] through `stdin`.
 
+```
+./project < 1.gr
+```
 
 ## Authors
 
@@ -91,6 +94,7 @@ UIDB/50021/2020.
 [gcc]: https://gcc.gnu.org/
 [GNU Make]: https://www.gnu.org/software/make/
 [arc4random]: https://man.archlinux.org/man/extra/libbsd/arc4random.3bsd.en
+[input format]: https://pacechallenge.org/2024/io/
 
 [lmsrusso@gmail.com]: mailto:lmsrusso@gmail.com
 [tags]: ../../tags
