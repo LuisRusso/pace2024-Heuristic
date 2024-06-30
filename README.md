@@ -23,7 +23,7 @@ To get a copy of this software download or clone the GitHub repository.
 Download:
 
 ```
-wget https://github.com/LuisRusso/pace2024-Heuristic
+wget https://github.com/LuisRusso/pace2024-Heuristic/archive/refs/heads/main.zip
 ```
 
 Clone:
