@@ -29,7 +29,7 @@ CFLAGS  += -D_DEFAULT_SOURCE
 CFLAGS  += -D NDEBUG
 #CFLAGS  += $(PROFILE)
 CFLAGS  += $(OPTIMIZE)
-CFLAGS  += $(STATIC)
+#CFLAGS  += $(STATIC)
 
 ##  Base Makefile
 ##  Diferent classes of files
@@ -52,7 +52,7 @@ coverage: $(COVS)
 ## Linking rule
 $(EXEC): $(OS)
 	@echo Linking: $@
-	$(CC) $(CFLAGS) $(OS) -o $@ -lm -lrt
+	$(CC) $(CFLAGS) $(OS) -o $@ -lm -lrt -lmd -lbsd
 
 ## Run Preprocessor
 %.i: %.c
